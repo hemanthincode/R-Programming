@@ -1,0 +1,149 @@
+x= 10
+x
+class(x)
+x2 = 12.5
+x2
+class(x2)
+x3 = as.integer(calls)
+x4 = as.numeric(x4)
+x4 = as.numeric(x4)
+x4 = as.numeric(x4)
+x5= 'apple'
+x5
+class(x5)
+x7= TRUE
+x7
+class(x7)
+as.character(x7)
+as.character(x7)
+x8= c('m','f','m','f','m','f','f','f')
+x8
+class(x8)
+x9= as.factor(x8)
+x9
+class(x9)
+nlevels(x9)
+summary(x9)
+length(x9)
+age= c(22,34,33,55,45,45,45,64,65)
+age
+length(age)
+class(age)
+summary(age)
+id= 1:10
+id
+age[1]
+mean(age)
+median(age)
+sd(age)
+var(age)
+quantile(age)
+quantile(age,0.25)
+#---------importing data from csv file
+df= read.csv("E:/Python/lungcapdata.csv",header = T)
+df
+df= read.csv("E:/Python/lungcapdata.csv",header = T)
+df
+df$LungCap
+head(df)
+tail(df)
+df$LungCap
+mean(df$LungCap)
+median(df$LungCap)
+sd(df$LungCap)
+summary(df$LungCap)
+dim(df)
+summary(df)
+df$Smoker
+df$Smoker= as.factor(df$Smoker)
+df$Smoker= as.factor(df$Smoker)
+df$smoker= as.factor(df$smoker)
+df$smoker= as.factor(df$smoker)
+df= read.csv("E:/Python/lungcapdata.csv",header = T)
+df
+df$LungCap
+head(df)
+tail(df)
+mean(df$LungCap)
+median(df$LungCap)
+sd(df$LungCap)
+summary(df$LungCap)
+dim(df)
+summary(df)
+df$Smoke= as.factor(df$Smoke)
+df$Smoker
+df$Smoke= as.factor(df$Smoke)
+df$Smoke
+df$Gender= as.factor(df$Gender)
+df$Gender
+summary(df)
+x5= 'apple'
+x5
+class(x5)
+x6 = as.character(x2)
+x6
+class(x6)
+x7= TRUE
+x7
+class(x7)
+as.character(x7)
+x8= c('m','f','m','f','m','f','f','f')
+x8
+class(x8)
+x9= as.factor(x8)
+x9
+class(x9)
+nlevels(x9)
+summary(x9)
+length(x9)
+age= c(22,34,33,55,45,45,45,64,65)
+age
+length(age)
+class(age)
+summary(age)
+id= 1:10
+id
+age
+age[1]
+mean(age)
+median(age)
+sd(age)
+var(age)
+quantile(age)
+quantile(age,0.25)
+df= read.csv("E:/Python/lungcapdata.csv",header = T)
+df
+dim(df)
+summary(df)
+df$Smoke= as.factor(df$Smoke)
+df$Smoke
+df$Gender= as.factor(df$Gender)
+df$Gender
+summary(df)
+df$LungCap
+sd(df$LungCap)
+df$Smoke= as.factor(df$Smoke)
+df$Smoke
+df$Gender= as.factor(df$Gender)
+df$Gender
+summary(df)
+library(foreign)             #calling the librarys with in R environment
+install.packages("foreign")         #calling the librarys internet
+install.packages("foreign")
+df = read.csv("banking.csv")
+setwd("E:/Python")
+df = read.csv("banking.csv")
+df
+dim(df)
+dim(df)
+dim(df)
+dim(df)
+head(df)
+colnames(df)
+str(df)
+install.packages("dplyr")
+library(dplyr)
+install.packages("dplyr")
+library(dplyr)
+install.packages("dplyr")
+str(df)
